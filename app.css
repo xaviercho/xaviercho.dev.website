@@ -3,9 +3,29 @@ body{
 	font-family: "Nunito", sans-serif;
 }
 
+.blurb h2 {
+   font-weight: 100;
+   font-size: 2.5rem;
+   font-family: "Nunito", sans-serif;
+}
+
+.blurb p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+	font-family: "Nunito", sans-serif;
+}
+
+.content {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 350;
+	background: #2F444D;
 }
 
 #mainNavbar .nav-link {
@@ -47,11 +67,16 @@ body{
 #test{
 	color: #DDD8CA;
 }
+@media (max-width: 991px) {
+	#headingImg{
+		
+	}
+}
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 100;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .blurb h2 {
         font-size: 2rem;
