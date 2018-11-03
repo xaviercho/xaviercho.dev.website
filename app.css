@@ -21,7 +21,6 @@ body{
     margin-bottom: 50px;
 }
 
-
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 350;
@@ -51,26 +50,43 @@ body{
     transition: background 500ms;
 }
 
-#about{
+#top{
 	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
-#skills{
+#aboutme{
 	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
+}
+
+#skillsme{
+	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
 
-#projects{
+#projectsme{
 	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
-#blog{
+#blogme{
 	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
-#test{
+#testme{
 	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
 }
+
 @media (max-width: 991px) {
 	#headingImg{
 		
