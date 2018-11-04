@@ -1,6 +1,6 @@
 body{
 	background: #2E2D2B;
-	font-family: "Nunito", sans-serif;
+	font-family: "Nunito", sans-serif;	
 }
 
 .blurb h2 {
@@ -52,20 +52,20 @@ body{
 
 #top{
 	color: #DDD8CA;
-	padding-top: 50px;
-	margin-top: -50px;
+	padding-top: 45px;
+	margin-top: -45px;
 }
 
 #aboutme{
 	color: #DDD8CA;
-	padding-top: 50px;
-	margin-top: -50px;
+	padding-top: 45px;
+	margin-top: -45px;
 }
 
 #skillsme{
 	color: #DDD8CA;
-	padding-top: 50px;
-	margin-top: -50px;
+	padding-top: 45px;
+	margin-top: -45px;
 }
 
 
@@ -75,22 +75,16 @@ body{
 	margin-top: -50px;
 }
 
-#blogme{
-	color: #DDD8CA;
-	padding-top: 50px;
-	margin-top: -50px;
-}
-
 #testme{
 	color: #DDD8CA;
-	padding-top: 50px;
-	margin-top: -50px;
+	padding-top: 45px;
+	margin-top: -45px;
 }
 
-@media (max-width: 991px) {
-	#headingImg{
-		
-	}
+#blogme{
+	color: #DDD8CA;
+	padding-top: 45px;
+	margin-top: -45px;
 }
 
 @media (max-width: 1200px) {
