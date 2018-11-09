@@ -17,10 +17,13 @@
 	<!-- Fav Icon -->
 	<link rel="shortcut icon" type="image/png" href="imgs/favicon3.png" >
 	
+	<!-- Animate.CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+	
     <title>Xavier Cho - Graphics Developer, Gamer & Foodie</title>
   </head>
   
-  <body>
+  <body class="animated fadeIn">
   <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
   <a href="#top"  class="navbar-brand">XAVIER CHO</a>
    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"  aria-label="Toggle navigation"> 
@@ -29,20 +32,20 @@
    <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav">
 			  <!-- ml-auto how to position image?!?! -->
-                <li class="nav-item">
-                    <a href="#aboutme" class="nav-link">ABOUT</a>
+                <li class="nav-item active">
+                    <a href="#aboutme" class="nav-link active">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skillsme" class="nav-link">SKILLS</a>
+                    <a href="#skillsme" class="nav-link active">SKILLS</a>
                 </li>
 				<li class="nav-item">
-                    <a href="#projectsme" class="nav-link">PROJECTS</a>
+                    <a href="#projectsme" class="nav-link active">PROJECTS</a>
                 </li>
 				<li class="nav-item">
-                    <a href="#testme" class="nav-link">TESTIMONIALS</a>
+                    <a href="#testme" class="nav-link active">TESTIMONIALS</a>
                 </li>
 				<li class="nav-item">
-                    <a href="#blogme" class="nav-link">BLOG</a>
+                    <a href="#contactme" class="nav-link active">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -56,7 +59,7 @@
             <div class="col-lg-6 text-center order-2 order-lg-1 d-none d-lg-block">
                 <div class="row justify-content-center">
                     <div id="headingGroup">
-                    <h1 class="">GRAPHICS DEVELOPER</h1>
+                    <h1 class="">JR. GRAPHICS DEVELOPER</h1>
                     <h1 class="">GAMER & FOODIE</h1>
                     </div>
                 </div>
@@ -64,7 +67,7 @@
         </div>
 		</section>
 
-    <section class="container-fluid ">
+    <section class="container-fluid">
         <div  id="aboutme" class="row align-items-center content">
             <div class="col-md-6 order-1 order-md-1 px-0">
                 <img src="imgs/gamer.png" alt="" class="img-fluid d-none d-lg-inline">
@@ -73,7 +76,7 @@
                 <div class="row justify-content-center">
                     <div id="about" class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>ABOUT</h2>
-                        <img src="imgs/gamecontroller.png" alt="" class="d-none d-lg-inline">
+                        <img src="imgs/about.png" alt="" class="d-none d-lg-inline">
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores deserunt
                             in voluptatibus
@@ -115,7 +118,7 @@
                 <div class="row justify-content-center">
                     <div id="projects" class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>PROJECTS</h2>
-                        <img src="imgs/gamecontroller.png" alt="" class="d-none d-lg-inline">
+                        <img src="imgs/skills.png" alt="" class="d-none d-lg-inline">
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores
                             deserunt
@@ -131,51 +134,127 @@
                 </div>
             </div>
         </div>
-		 <div id="testme" class="row align-items-center content">
+		
+				 <div id="projectsme" class="row align-items-center content">
 		 <div class="col-md-6 order-1 order-md-2 px-0">
+                <img src="imgs/collide.webm" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-1">
+                <div class="row justify-content-center ">
+                    <div id="test"  class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
+                        <h2>COLLISION DETECTION</h2>
+                        <img src="imgs/skills.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">3D version of the Brownian motion problem, where a
+							single particle that starts at a random position inside a volume bounded by an
+							interactive polyhedron.The particle continues to move until it exits the volume. When the particle exits polygon through
+							which it exits changes color to solid color and becomes opaque.</p>	
+                    </div>
+                </div>
+            </div>
+        </div>
+						 <div id="projectsme" class="row align-items-center content">
+		 <div class="col-md-6 order-1 order-md-1 px-0">
+                <img src="imgs/shaders.gif" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-1">
+                <div class="row justify-content-center ">
+                    <div id="test"  class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
+                        <h2>GLSL SHADER MANIPULATION</h2>
+                        <img src="imgs/skills.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Implemented using shaders using three lighting scenarios in a 3D scene, 
+						The goal in this is to build a small scene to exercise and test the understanding of
+						lighting and shading; The player/user  is identified with the flying camera.</p>	
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<div id="projectsme" class="row align-items-center content">
+		 <div class="col-md-6 order-1 order-md-2 px-0">
+                <img src="imgs/skybox.gif" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-1">
+                <div class="row justify-content-center ">
+                    <div id="test"  class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
+                        <h2>SKYBOX</h2>
+                        <img src="imgs/skills.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Shows your mastery of the fundamentals of computer graphics shaders and the graphics pipeline within the scene hirerachy. Texture mapping & instancing to create a forrests the terrain. The user travels to a village in a car.
+						During the trip the user is allowed to toggle viewpoints using the keyboard command "V" </p>	
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		 <div id="projectsme" class="row align-items-center content">
+		 <div class="col-md-6 order-1 order-md-1 px-0">
+                <img src="imgs/arcore.gif" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-1">
+                <div class="row justify-content-center ">
+                    <div id="test"  class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
+                        <h2>ARCORE PORTAL</h2>
+                        <img src="imgs/skills.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Implemented using shaders and lighting scenarios in a 3D scene, 
+						The goal with this is to build Sponza to test
+						lighting, shading and collision detectionwith ARCore.</p>	
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<div id="projectsme" class="row align-items-center content">
+		 <div class="col-md-6 order-1 order-md-2 px-0">
+                <img src="imgs/shooter.gif" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-1">
+                <div class="row justify-content-center ">
+                    <div id="test"  class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
+                        <h2>UNITY RAIL SHOOTER</h2>
+                        <img src="imgs/skills.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Implemented particle effects, collision detection, scoring system and UI.
+						The goal with this is to build something more robust as a game demo with Unity.</p>	
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		 <div id="testme" class="row align-items-center content">
+		 <div class="col-md-6 order-1 order-md-1 px-0">
                 <img src="imgs/speak1.png" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 text-center order-2 order-md-1">
                 <div class="row justify-content-center ">
                     <div id="test"  class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
                         <h2>TESTIMONIALS</h2>
-                        <img src="imgs/gamecontroller.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
+                        <img src="imgs/testimonials.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Recommendation letters are available upon request.</p>
+						<a href="mailto:cho.xavier.12@gmail.com"><p>Email Me Here</p></a>
+						
                     </div>
                 </div>
             </div>
         </div>
-		 <div id="blogme" class="row align-items-center content">
-            <div class="col-md-6 order-1 order-md-1 px-0">
-                <img src="imgs/speak2.png" alt="" class="img-fluid">
+		 <div id="contactme" class="row align-items-center content">
+            <div class="col-md-6 order-1 order-md-2 px-0">
+                <img src="imgs/contact.png" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 text-center order-2 order-md-1">
                 <div class="row justify-content-center">
-                    <div id="blog" class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2>BLOG</h2>
-                        <img src="imgs/gamecontroller.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores
-                            deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet
-                            quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt
-                            debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
+                    <div id="contact" class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>CONTACT</h2> <a href="mailto:cho.xavier.12@gmail.com">
+                        <img src="imgs/email.png" alt="" class="d-none d-lg-inline">
+						</a>
+                        <p>
+						<a href="https://www.linkedin.com/in/xaviercho/"> <img src="imgs/linkedin.png" alt="" class="d-none d-lg-inline"> </a>
+						<a href="https://github.com/xaviercho"> <img src="imgs/github.png" alt="" class="d-none d-lg-inline"> </a>
+						<a href="https://www.instagram.com/cho_bro/"> <img src="imgs/instagram.png" alt="" class="d-none d-lg-inline"> </a>
+						</p>
+						
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 	
     <!-- Optional JavaScript -->
@@ -186,8 +265,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" > </script>
 	<script src="https://code.jquery.com/jquery-3.1.0.js" > </script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
-	
 	
 	<script>
         $(function () {
