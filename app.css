@@ -1,5 +1,5 @@
 body{
-	background: #2E2D2B;
+	background: #3B3B3D;
 	font-family: "Nunito", sans-serif;	
 }
 
@@ -24,11 +24,11 @@ body{
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 350;
-	background: #2F444D;
+	background: #2B3340;
 }
 
 #mainNavbar .nav-link {
-    color: #4E8399;
+    color: #B5B7BD;
 }
 
 #mainNavbar .nav-link:hover {
@@ -58,19 +58,19 @@ body{
 
 #aboutme{
 	color: #DDD8CA;
-	padding-top: 45px;
-	margin-top: -45px;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
 #skillsme{
 	color: #DDD8CA;
-	padding-top: 45px;
-	margin-top: -45px;
+	padding-top: 47px;
+	margin-top: -47px;
 }
 #skill_table{
 	 font-weight: 100;
 	 padding-top: 0px;
-	 margin-top: 0px;
+	 margin-top:  0px;
 }
 
 #projectsme{
